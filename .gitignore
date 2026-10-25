@@ -1,0 +1,14 @@
+.gradle/
+.gradle-home/
+local.properties
+**/build/
+*.iml
+.idea/
+
+*.keystore
+*.jks
+*.apk
+*.aab
+.DS_Store
+# Never commit personal travel documents
+boarding-passes/
