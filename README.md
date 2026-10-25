@@ -31,8 +31,6 @@ Package ID remains com.packproof.app so existing locally saved trips are preserv
 ```
 The debug APK is produced at app/build/outputs/apk/debug/app-debug.apk. A local development keystore may be used if present; otherwise Android uses its normal debug signing. No private signing keys belong on GitHub.
 
-## Two-week GitHub workflow
-See [14-day plan](docs/14-DAY-PLAN.md). The full implementation is the day-1 baseline; following commits capture real testing, documentation and refinements. Use `scripts/daily-commit.sh` after completing each day's work. It commits locally and does not push or fake dates.
 
 ## Demo
 Create a five-day beach trip for three people, choose Flight and a hotel with towels, attach a synthetic boarding pass, then generate the list. Compare group clothing quantities with shared sunscreen, read an explanation, add an item, mark items packed, and reopen the trip.
